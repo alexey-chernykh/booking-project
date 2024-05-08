@@ -1,0 +1,57 @@
+nav {
+  background-color: #333; /* Колір фону панелі навігації */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Вирівнюємо елементи горизонтально */
+}
+
+nav ul li {
+  margin-right: 20px; /* Відступ між пунктами меню */
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Відсутність відступу у останнього пункту */
+}
+
+nav ul li a {
+  color: #fff; /* Колір тексту посилань */
+  text-decoration: none;
+  padding: 10px; /* Відступи внутрішні */
+  display: inline-block; /* Блочне відображення */
+}
+
+nav ul li a:hover {
+  background-color: #555; /* Колір фону по наведенню курсору */
+}
+
+.loginOrRegister p {
+  margin: 0 10px; /* Відступ між текстом "or" та посиланнями */
+}
+
+.flexGrow {
+  display: flex;
+  justify-content: flex-end; /* Вирівнюємо кнопку по правому краю */
+  flex-grow: 1; /* Займає доступне вільне простору */
+}
+
+.flexGrow button {
+  background-color: #555; /* Колір кнопки */
+  color: #fff; /* Колір тексту кнопки */
+  border: none; /* Видаляємо межі */
+  padding: 10px 20px; /* Відступи внутрішні */
+  cursor: pointer; /* Зміна курсору при наведенні на кнопку */
+}
+
+.flexGrow button:hover {
+  background-color: #777; /* Колір кнопки при наведенні */
+}
+.rightPos {
+  display: flex;
+  justify-content: flex-end; /* Вирівнюємо кнопку по правому краю */
+  flex-grow: 1; /* Займає доступне вільне простору */
+  margin: 10px;
+}

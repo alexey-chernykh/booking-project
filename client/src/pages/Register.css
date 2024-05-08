@@ -1,0 +1,70 @@
+.registerSection {
+  max-width: 400px; /* Максимальна ширина контейнера */
+  margin: 0 auto; /* Центрування по горизонталі */
+  padding: 20px;
+  background-color: #f9f9f9; /* Колір фону */
+  border-radius: 8px; /* Закруглені кути контейнера */
+}
+
+.registerSection .errmsg {
+  color: #ff0000; /* Колір тексту помилки */
+}
+
+.registerSection .offscreen {
+  position: absolute; /* Вихід елементу зі стандартного потоку документа */
+  left: -9999px; /* Позиціонування за межами екрану */
+}
+
+.registerSection h1 {
+  font-size: 24px; /* Розмір шрифту заголовка */
+  margin-bottom: 20px; /* Відступ від заголовка до форми */
+}
+
+.registerSection form {
+  display: flex;
+  flex-direction: column; /* Відображення елементів форми один за одним */
+}
+
+.registerSection label {
+  font-weight: bold; /* Напівжирний шрифт для міток */
+}
+
+.registerSection input[type="text"],
+.registerSection input[type="password"] {
+  padding: 10px; /* Відступи всередині полів вводу */
+  margin-bottom: 15px; /* Відступ між полями вводу */
+  border-radius: 4px; /* Закруглені кути полів вводу */
+  border: 1px solid #ccc; /* Рамка поля вводу */
+}
+
+.registerSection button {
+  padding: 10px 20px; /* Відступи всередині кнопки */
+  background-color: #333; /* Колір фону кнопки */
+  color: #fff; /* Колір тексту кнопки */
+  border: none; /* Видаляємо рамку */
+  border-radius: 4px; /* Закруглені кути кнопки */
+  cursor: pointer; /* Зміна курсору при наведенні на кнопку */
+}
+
+.registerSection button:hover {
+  background-color: #555; /* Колір фону кнопки при наведенні */
+}
+
+.registerSection p {
+  font-size: 14px; /* Розмір шрифту тексту */
+  text-align: center; /* Вирівнюємо текст по центру */
+}
+
+.registerSection .line {
+  display: inline-block; /* Робимо посилання блочним елементом */
+  margin-top: 5px; /* Відступ від верхнього рядка */
+}
+
+.registerSection .line a {
+  color: #333; /* Колір тексту посилання */
+  text-decoration: underline; /* Підкреслюємо посилання */
+}
+
+.registerSection .line a:hover {
+  color: #555; /* Колір тексту посилання при наведенні */
+}

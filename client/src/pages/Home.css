@@ -1,0 +1,17 @@
+.homepageImage {
+  max-width: 50%; /* Зменшуємо розмір картинки до 50% ширини вікна */
+  height: auto;
+  display: block; /* Вирівнюємо картинку по центру */
+  margin: 0 auto; /* Вирівнюємо картинку по горизонталі по центру */
+  margin-top: 20px;
+}
+.homepageSection {
+  margin: 0 auto; /* Вирівнюємо по центру по горизонталі */
+  max-width: 50%; /* Задаємо максимальну ширину блоку section */
+  margin-bottom: 30px;
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}

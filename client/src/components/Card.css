@@ -1,0 +1,13 @@
+.card {
+  width: 800px; /* фіксована ширина карти */
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* тонка рамка */
+  border-radius: 8px; /* закруглені кути */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* тінь */
+  padding: 20px; /* відступ від вмісту */
+  background-color: #fff; /* колір фону */
+  transition: box-shadow 0.3s ease; /* плавна анімація для тіні */
+}
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* збільшена тінь при наведенні */
+}

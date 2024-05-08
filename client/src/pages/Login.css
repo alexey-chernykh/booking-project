@@ -1,0 +1,70 @@
+.loginSection {
+  max-width: 400px; /* Максимальна ширина контейнера */
+  margin: 0 auto; /* Центрування по горизонталі */
+  padding: 20px;
+  background-color: #f9f9f9; /* Колір фону */
+  border-radius: 8px; /* Закруглені кути контейнера */
+}
+
+.loginSection .errmsg {
+  color: #ff0000; /* Колір тексту помилки */
+}
+
+.loginSection .offscreen {
+  position: absolute; /* Вихід елементу зі стандартного потоку документа */
+  left: -9999px; /* Позиціонування за межами екрану */
+}
+
+.loginSection h1 {
+  font-size: 24px; /* Розмір шрифту заголовка */
+  margin-bottom: 20px; /* Відступ від заголовка до форми */
+}
+
+.loginSection form {
+  display: flex;
+  flex-direction: column; /* Відображення елементів форми один за одним */
+}
+
+.loginSection label {
+  font-weight: bold; /* Напівжирний шрифт для міток */
+}
+
+.loginSection input[type="text"],
+.loginSection input[type="password"] {
+  padding: 10px; /* Відступи всередині полів вводу */
+  margin-bottom: 15px; /* Відступ між полями вводу */
+  border-radius: 4px; /* Закруглені кути полів вводу */
+  border: 1px solid #ccc; /* Рамка поля вводу */
+}
+
+.loginSection button {
+  padding: 10px 20px; /* Відступи всередині кнопки */
+  background-color: #333; /* Колір фону кнопки */
+  color: #fff; /* Колір тексту кнопки */
+  border: none; /* Видаляємо рамку */
+  border-radius: 4px; /* Закруглені кути кнопки */
+  cursor: pointer; /* Зміна курсору при наведенні на кнопку */
+}
+
+.loginSection button:hover {
+  background-color: #555; /* Колір фону кнопки при наведенні */
+}
+
+.loginSection p {
+  font-size: 14px; /* Розмір шрифту тексту */
+  text-align: center; /* Вирівнюємо текст по центру */
+}
+
+.loginSection .line {
+  display: inline-block; /* Робимо посилання блочним елементом */
+  margin-top: 5px; /* Відступ від верхнього рядка */
+}
+
+.loginSection .line a {
+  color: #333; /* Колір тексту посилання */
+  text-decoration: underline; /* Підкреслюємо посилання */
+}
+
+.loginSection .line a:hover {
+  color: #555; /* Колір тексту посилання при наведенні */
+}
